@@ -1,0 +1,24 @@
+.about{
+    background-color: var(--fondo);
+}
+
+.about__title{
+    font-weight: bold;
+	font-size: 32px;
+	line-height: 2rem;
+	text-align: center;
+    color: var(--titulos);
+
+}
+
+#about__description{
+    color: var(--color-letras);
+    font-size: 1.7rem;
+}
+
+@media screen and (max-width:480px){
+    #about__description{
+        margin-top: .95rem;
+        font-size: 1.15rem;
+    }
+}

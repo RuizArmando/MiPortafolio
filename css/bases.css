@@ -1,0 +1,25 @@
+:root {
+    --fondo: #FFFFFF;
+    --color-letras: #000000;
+    --titulos: #464646;
+    --fondo-box: #FFFFFF;
+    --letras-box: #000000;
+    --borde-box: #CCCCCC;
+    --borde-box-segundo: #11EDF1;
+
+    --input-ok: #1ED12D;
+    --input-falle: #B72E2E;
+    --boton-rojo: #B72E2E;
+    
+    --fuente-ceniza: #464646;
+    --fuente-enlace: #F6B025;
+    --fuente-ceniza-oscuro: #4F4C4C;
+
+    --Fuente: 'Titillium Web', sans-serif;
+}
+
+.dark {
+    --fondo: #000000;
+    --color-letras: #FFFFFF;
+    --titulos: #FFFFFF;
+}

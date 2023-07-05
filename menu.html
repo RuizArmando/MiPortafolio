@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio | Armando Ruiz Gutierrez</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <!--Fuente de letra-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300&display=swap" rel="stylesheet">
+    <!--Archivos CSS-->
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/bases.css">
+    <link rel="stylesheet" href="./css/header/menu.css">
+    <link rel="stylesheet" href="./css/main/profile.css">
+    <link rel="stylesheet" href="./css/main/about.css">
+    <link rel="stylesheet" href="./css/main/skills.css">
+    <link rel="stylesheet" href="./css/main/hobbies.css">
+    <link rel="stylesheet" href="./css/main/academic.css">
+    <link rel="stylesheet" href="./css/main/proyect.css">
+    <link rel="stylesheet" href="./css/main/contact.css">
+    <link rel="stylesheet" href="./css/footer/credits.css">
+</head>
+<body>
+    <section class="menu" id="menu">
+        <header class="menu__header">
+            <img class="icono" src="./assetes/insignia.png">
+            <h1 class="header__name">Armando Ruiz Gutierrez</h1>
+            <label for="toggle" id="dark-mode"><i class="fa-solid fa-moon"></i></label>
+            <input type="checkbox" id="toggle">
+        </header>
+        <nav>
+            <ul class="menu__navegation">
+                <li class="menu__link"><a href="#about" onclick="MenuPosition(event, '#about')">Sobre mi</a></li>
+                <li class="menu__link"><a href="#skills" onclick="MenuPosition(event, '#skills')">Skills</a></li>
+                <li class="menu__link"><a href="#hobbies" onclick="MenuPosition(event, '#hobbies')">Hobbies</a></li>
+                <li class="menu__link"><a href="#academic" onclick="MenuPosition(event, '#academic')">Formacion</a></li>
+                <li class="menu__link"><a href="#proyect" onclick="MenuPosition(event, '#proyect')">Proyectos</a></li>
+                <li class="menu__link"><a href="#contact" onclick="MenuPosition(event, '#contact')">Contactame</a></li>
+                <li class="menu__link contact"><a href="#contact">Contactame</a></li>
+            </ul>
+        </nav>
+    </section>
+    <main>
+        <section class="profile">
+            <div class="conteincer-perfil">
+                <img class="profile__picture" src="./assetes/insignia.png" alt="Imagen de Perfil">
+                <div class="network__conteiner">
+                    <h1 class="network__title">Hola, mi nombre es Armando Ruiz Gutierrez, soy desarrollador Web</h1>
+                    <h2 class="network__description">Actualmente estoy participando en el proyecto Oracle ONE en Alura Latam</h2>
+                    <nav>
+                        <ul  class="network__ul">
+                            <li class="network__item"><a class="network__link" href="https://github.com/RuizArmando" target="_blank">Github</a></li>
+                            <li class="network__item"><a class="network__link" href="https://www.linkedin.com/in/armando-ruiz-gutierrez-1a3488266/" target="_blank">Linkedin</a></li>
+                            <li class="network__item"><a class="network__link" href="#">Curriculo</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </section>
+        <section class="about" id="about">
+            <div class="about__container">
+                <h1 class="about__title">Sobre mi</h1>
+                <p id="about__description">Estudiante de desarrollo web </p>
+            </div>
+        </section>
+        <section class="skills" id="skills">
+            <h3 class="skills__title">Skills</h3>
+            <nav class="skills__nav">
+                <ul class="skills__box">
+                    <li><img class="skills__img" src="./assetes/HTML5.png"></li>
+                    <li class="skills__name">HTML 5</li>
+                </ul>
+                <ul class="skills__box">
+                    <li><img class="skills__img" src="./assetes/CSS 3.png"></li>
+                    <li class="skills__name">CSS 3</li>
+                </ul>
+                <ul class="skills__box">
+                    <li><img class="skills__img" src="./assetes/JS.png"></li>
+                    <li class="skills__name">Javascript</li>
+                </ul>
+                <ul class="skills__box">
+                    <li><img class="skills__img" src="./assetes/PHP.png"></li>
+                    <li class="skills__name">PHP</li>
+                </ul>
+                <ul class="skills__box">
+                    <li><img class="skills__img node" src="./assetes/NODE JS.png"></li>
+                    <li class="skills__name">Node JS</li>
+                </ul>
+                <ul class="skills__box">
+                    <li><img class="skills__img" src="./assetes/REACT.png"></li>
+                    <li class="skills__name">React</li>
+                </ul>
+            </nav>
+        </section>
+        <section class="hobbies" id="hobbies">
+            <h3 class="hobbies__title">Hobbies</h3>
+            <nav class="hobbies__nav">
+                <ul class="hobbies__box">
+                    <li><img class="hobbies__img" src="./assetes/musica.png"></li>
+                    <li class="hobbies__name">Musica</li>
+                </ul>
+                <ul class="hobbies__box">
+                    <li><img class="hobbies__img" src="./assetes/videojuego.png"></li>
+                    <li class="hobbies__name">Video Juegos</li>
+                </ul>
+                <ul class="hobbies__box">
+                    <li><img class="hobbies__img" src="./assetes/literatura.png"></li>
+                    <li class="hobbies__name">Literatura</li>
+                </ul>
+            </nav>
+        </section>
+        <section class="academic" id="academic">
+            <h1 class="academic_title">Formacion Academica</h1>
+            <nav class="academic__nav">
+                <div  class="academic__box">
+                    <ul>
+                        <li><img class="academic__img" src="./assetes/conalep.png"></li>
+                        <li class="academic__name">Conalep</li>
+                    </ul>
+                </div>
+                <div  class="academic__box">
+                    <ul>
+                        <li><img class="academic__img" src="./assetes/tec.png"></li>
+                        <li class="academic__name">Instituto Tecnologico</li>
+                    </ul>
+                </div>
+                <div class="academic__box">
+                    <ul>
+                        <li><img class="academic__img" src="./assetes/alura.png"></li>
+                        <li class="academic__name">Formacion Desarrollador Web</li>
+                    </ul>
+                </div>
+            </nav>
+        </section>
+        <section class="proyect" id="proyect">
+            <h1 class="proyect_title">Proyectos</h1>
+            <img class="proyect__img" src="./assetes/proyectos/Encriptador.png">
+            <p class="proyect__descripcion">Encriptador de texto</p>
+            <div class="proyect__box">
+                <button class="proyect__demo" onclick="projectEncriptador()">Demo</button>
+                <button class="proyect__code" onclick="codeEncriptador()">Code</button>
+            </div>
+            <img class="proyect__img" src="#">
+            <p class="proyect__descripcion">Potafolio actual</p>
+            <div class="proyect__box">
+                <button class="proyect__demo" onclick="projectPortafolio()">Demo</button>
+                <button class="proyect__code" onclick="codePortafolio()">Code</button>
+            </div>
+        </section>
+        <section class="contact" id="contact">
+            <h1 class="contact__title">Contacto</h1>
+            <p class="contact__info">¿Quieres contactarme?</p>
+            <p class="contact__info">Complete el siguiente formulario y me pondre en contacto con usted lo antes posible.</p>
+            <form id="contact__form" action="https://formsubmit.co/357e6d082d98099bf80857274ab077a0" method="POST" class="contact__form">
+                <div class="contact__conteiner">
+                    <div class="contact__input" id="input__name">
+                        <label for="name">Nombre completo</label>
+                        <input name="name" type="text" id="name" required>
+                        <p>Favor de igresar su nombre completo, maximo 50 caracteres</p>
+                    </div>
+                    <div class="contact__input" id="input__email">
+                        <label for="email">Correo electronico</label>                
+                        <input name="email" type="email" id="email" max="50" required>
+                        <p class="contact__value">Favor de igresar su correo electronico completo, maximo 50 caracteres</p>
+                    </div>
+                    <div class="contact__input" id="input__title">
+                        <label for="title">Asunto</label>
+                        <input name="title" type="text" id="title" maxlength="50" required>
+                        <p class="contact__value">Favor de igresar el asunto por que desea contacterme, maximo 50 caracteres</p>
+                    </div>
+                    <div class="contact__input" id="input__description">
+                        <label for="description">Mensaje</label>
+                        <textarea name="description" id="description" maxlength="300" required></textarea>
+                        <p class="contact__value">Favor de igresar un mensaje en este campo, maximo 300 caracteres</p>
+                    </div>
+                </div>
+                <input type="submit" class="envio" value="Enviar">
+                <input type="hidden" name="_next" value="http://127.0.0.1:5500/menu.html">
+                <input type="hidden" name="_captcha" value="false">
+            </form>
+        </section>
+    </main>
+    <script src="./js/menu/menu.js"></script>
+    <script src="./js/main/project.js"></script>
+    <script src="./js/menu/dark-mode-menu.js"></script>
+    <script src="./js/validar.js"></script>
+</body>
+<footer>
+    <p>Desarrollado por Armando Ruiz Gutierrez</p>
+    <p>2023</p>
+</footer>
+</html>
+
+<!--https://formsubmit.co/357e6d082d98099bf80857274ab077a0-->

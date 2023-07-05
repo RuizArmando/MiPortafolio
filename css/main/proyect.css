@@ -1,0 +1,44 @@
+.proyect{
+	background-color: var(--fondo);
+}
+
+.proyect_title{
+    font-weight: bold;
+	font-size: 32px;
+	line-height: 2rem;
+	text-align: center;
+    color: var(--titulos);
+}
+
+.proyect__img{
+	width: 66rem;
+	margin-left: 8%;
+}
+
+.proyect__descripcion{
+	margin-left: 6rem;
+	font-size: 20px;
+	color: var(--color-letras);
+}
+
+.proyect__box{
+	display: flex;
+}
+
+.proyect__demo{
+	width: 4rem;
+	height: 2.3rem;
+	margin-top: .75rem;
+	margin-left: 6rem;
+	border-radius: 12px;
+	border-width: .12rem;
+}
+
+.proyect__code{
+	width: 4rem;
+	height: 2.3rem;
+	margin-top: .75rem;
+	margin-left: 6rem;
+	border-radius: 12px;
+	border-width: .12rem;
+}

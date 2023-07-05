@@ -1,0 +1,124 @@
+.contact{
+    background-color: var(--fondo);
+}
+
+.contact__title{
+    font-weight: bold;
+	font-size: 32px;
+	line-height: 2rem;
+	text-align: center;
+    color: var(--titulos);
+}
+
+.contact__info{
+    margin-top: .75rem;
+    font-size: 20px;
+    color: var(--color-letras);
+}
+
+.contact__conteiner{
+    margin-top: .75rem;
+}
+
+.contact__input{
+    display: flex;
+    flex-direction: column;
+}
+
+.contact__input label{
+    font-size: 18px;
+    color: var(--color-letras);
+}
+
+.contact__input input{
+    margin-top: .75rem;
+    margin-bottom: .75rem;
+    width: 25rem;
+    height: 1.85rem;
+}
+
+.contact__input p{
+    color: var(--input-falle);
+    display: none;
+}
+
+.contact__input textarea{
+    margin-top: .75rem;
+    width: 25rem;
+    height: 3.85rem;
+}
+
+.envio{
+    margin-top: .75rem;
+    width: 4rem;
+	height: 2.3rem;
+    border-radius: 12px;
+    border-width: .12rem;
+}
+
+/*Validacion correcta*/
+
+.contact__input-ok{
+    display: flex;
+    flex-direction: column;
+}
+
+.contact__input-ok label{
+    font-size: 18px;
+    color: var(--input-ok);
+}
+
+.contact__input-ok input{
+    margin-top: .75rem;
+    margin-bottom: .75rem;
+    width: 25rem;
+    height: 1.85rem;
+    border: solid;
+    border-color: var(--input-ok);
+}
+
+.contact__input-ok p{
+    display: none;
+}
+
+.contact__input-ok textarea{
+    margin-top: .75rem;
+    width: 25rem;
+    height: 3.85rem;
+    border: solid;
+    border-color: var(--input-ok);
+}
+
+/*Validacion incorrecta*/
+
+.contact__input-falle{
+    display: flex;
+    flex-direction: column;
+}
+
+.contact__input-falle label{
+    font-size: 18px;
+    color: var(--input-falle);
+}
+
+.contact__input-falle input{
+    margin-top: .75rem;
+    margin-bottom: .75rem;
+    width: 25rem;
+    height: 1.85rem;
+    border: solid;
+    border-color: var(--input-falle);
+}
+
+.contact__input-falle p{
+    color: var(--input-falle);
+    display: block;
+}
+
+.contact__input-falle textarea{
+    margin-top: .75rem;
+    width: 25rem;
+    height: 3.85rem;
+    border: solid;
+    border-color: var(--input-falle);
+}

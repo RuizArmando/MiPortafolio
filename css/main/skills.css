@@ -1,0 +1,55 @@
+.skills{
+    background-color: var(--fondo);
+}
+
+.skills__title{
+    font-weight: bold;
+	font-size: 2rem;
+	line-height: 2rem;
+	text-align: center;
+    color: var(--titulos); 
+}
+
+.skills__nav{
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+}
+
+.skills__box{
+    background-color: var(--fondo-box);
+    box-shadow: 2px 2px 2px var(--borde-box);
+    color: var(--letras-box);
+    width: 14rem;
+    /*Nuevo*/
+    height: 7.4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+}
+
+.skills__box li{
+    margin: 10px;
+}
+
+.skills__box:hover{
+    box-shadow: 2px 2px 2px var(--borde-box-segundo);
+}
+
+.skills__img{
+    display: block;
+    margin: 0 auto;
+    width: 5rem;
+    height: 5rem;
+}
+
+.skills__name{
+    justify-content: space-evenly;
+}
+
+@media screen and (max-width:480px){
+    .skills{
+        margin-top: 0;
+    }
+}

@@ -1,0 +1,47 @@
+.academic{
+    background-color: var(--fondo);
+}
+
+.academic_title{
+    color: var(--titulos);
+    font-weight: bold;
+	font-size: 32px;
+	line-height: 2rem;
+	text-align: center;
+}
+
+.academic__nav{
+    display: flex;
+    justify-content: space-around;
+}
+
+.academic__box{
+    display: flex;
+    background-color: var(--fondo-box);
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    padding: 0;
+    width: 14rem;
+    height:7.4rem;
+    box-shadow: 2px 2px 2px var(--fondo-box)
+}
+
+.academic__box ul li{
+    margin: 10px;
+}
+
+.academic__box:hover{
+    box-shadow: 2px 2px 2px var(--borde-box-segundo);
+}
+
+.academic__img{
+    display: block;
+    margin: 0 auto;
+    width: 5rem;
+    height: 5rem;
+}
+
+.academic__name{
+    justify-content: space-evenly;
+}
