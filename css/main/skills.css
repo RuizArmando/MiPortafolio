@@ -50,6 +50,22 @@
 
 @media screen and (max-width:480px){
     .skills{
-        margin-top: 0;
+        margin-top: 0rem;
+    }
+    .skills__nav{
+        display: flex;
+        flex-direction: column;
+    }
+    .skills__box{
+        background-color: var(--fondo-box);
+        box-shadow: 2px 2px 2px var(--borde-box);
+        color: var(--letras-box);
+        width: 14rem;
+        padding-bottom: 4rem;
+        /*Nuevo*/
+        height: 7.4rem;
+        display: flex;
+        align-items: center;
+        list-style: none;
     }
 }
