@@ -12,6 +12,7 @@
 .profile__picture{
     border-radius: 50%;
     width: 16vw;
+    height: 16vw;
     margin-top: .1px;
 }
 
@@ -24,10 +25,14 @@
 .network__description{
     font-size: 1.4rem;
     color: var(--titulos);
+    /*Nuevo*/
+    margin-top: 8px;
 }
 
 .network__ul{
     display: flex;
+    /*Nuevo*/
+    margin-top: 8px;
 }
 
 .network__item{
@@ -44,8 +49,14 @@
     text-decoration: underline;
 }
 
-@media screen and (max-width:480px){
-    .profile{
+@media screen and (max-width: 720px){
+    .network__description{
+        margin-top: 8px;
+    }
+    .network__ul{
+        margin-top: 4px;
+    }
+    /*.profile{
         margin-top: 0rem;
     }
     .conteincer-perfil{
@@ -63,5 +74,15 @@
     }
     .network__description{
         margin-top: .55rem;
+    }*/
+}
+
+@media screen and (max-width: 480px){
+    .profile{
+        padding: 16px;
+    }
+    .conteincer-perfil{
+        display: flex;
+        flex-direction: column;
     }
 }

@@ -42,3 +42,19 @@
 	border-radius: 12px;
 	border-width: .12rem;
 }
+
+@media screen and (max-width:720px){
+	.proyect__img{
+		margin-left: 10%;
+		margin-right: 10%;
+		width: 570px;
+	}
+}
+
+@media screen and (max-width:480px){
+	.proyect__img{
+		margin-left: 10%;
+		margin-right: 10%;
+		width: 380px;
+	}
+}

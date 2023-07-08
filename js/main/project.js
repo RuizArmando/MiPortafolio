@@ -7,9 +7,9 @@ function codeEncriptador(){
 }
 
 function projectPortafolio(){
-    window.open('#', '_black')
+    window.open('https://ruizarmando.github.io/MiPortafolio/', '_black')
 }
 
 function codePortafolio(){
-    window.open('#','_black')
+    window.open('https://github.com/RuizArmando/MiPortafolio','_black')
 }
