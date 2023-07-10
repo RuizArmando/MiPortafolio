@@ -48,13 +48,15 @@
     .skills__nav{
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
+        padding-left: 10%;
+        padding-right: 5%;
     }
 
     .skills__box{
         background-color: var(--fondo-box);
         box-shadow: 2px 2px 10px var(--borde-box);
         color: var(--letras-box);
-        width: 12rem;
+        width: 10rem;
         /*Nuevo*/
         height: 7.2rem;
         display: flex;
@@ -80,6 +82,9 @@
     .skills__nav{
         display: grid;
         grid-template-columns: 1fr 1fr;
+    }
+    .skills__box{
+        width: 8rem;
     }
 }
 

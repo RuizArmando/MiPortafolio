@@ -47,14 +47,6 @@
 	.proyect__img{
 		margin-left: 10%;
 		margin-right: 10%;
-		width: 570px;
-	}
-}
-
-@media screen and (max-width:480px){
-	.proyect__img{
-		margin-left: 10%;
-		margin-right: 10%;
-		width: 380px;
+		width: 80%;
 	}
 }

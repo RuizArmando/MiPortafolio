@@ -33,7 +33,7 @@
 .contact__input input{
     margin-top: .75rem;
     margin-bottom: .75rem;
-    width: 25rem;
+    width: 30rem;
     height: 1.85rem;
 }
 
@@ -44,7 +44,7 @@
 
 .contact__input textarea{
     margin-top: .75rem;
-    width: 25rem;
+    width: 30rem;
     height: 3.85rem;
 }
 
@@ -121,4 +121,30 @@
     height: 3.85rem;
     border: solid;
     border-color: var(--input-falle);
+}
+
+@media screen and (max-width: 720px){
+    .contact__input input{
+        width: 22rem;
+    }
+
+    .contact__input textarea{
+        width: 22rem;
+    }
+
+    .contact__input-ok input{
+        width: 22rem;
+    }
+
+    .contact__input-ok textarea{
+        width: 22rem;
+    }
+
+    .contact__input-falle input{
+        width: 22rem;
+    }
+
+    .contact__input-falle textarea{
+        width: 22rem;
+    }
 }
