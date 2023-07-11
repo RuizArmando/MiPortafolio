@@ -43,7 +43,7 @@
 	border-width: .12rem;
 }
 
-@media screen and (max-width:720px){
+@media screen and (max-width: 900px){
 	.proyect__img{
 		margin-left: 10%;
 		margin-right: 10%;

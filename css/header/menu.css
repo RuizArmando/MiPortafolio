@@ -63,7 +63,7 @@
 
 /*Tamaño de tablet y mobile*/
 
-@media screen and (max-width: 720px){
+@media screen and (max-width: 900px){
     .menu{
         height: 3rem;
         background-color: var(--fondo);

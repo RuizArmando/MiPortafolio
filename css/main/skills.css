@@ -44,7 +44,7 @@
     height: 5rem;
 }
 
-@media screen and (max-width: 720px){
+@media screen and (max-width: 900px){
     .skills__nav{
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
