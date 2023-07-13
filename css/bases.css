@@ -4,7 +4,7 @@
     --titulos: #464646;
     --fondo-box: #FFFFFF;
     --letras-box: #000000;
-    --borde-box: #CCCCCC;
+    --borde-box: #0E110C;
     --borde-box-segundo: #11EDF1;
 
     --input-ok: #1ED12D;
@@ -22,6 +22,7 @@
     --fondo: #000000;
     --color-letras: #FFFFFF;
     --titulos: #FFFFFF;
+    --borde-box: #FFFFFF
 }
 
 body{
