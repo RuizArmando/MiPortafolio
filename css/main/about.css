@@ -1,5 +1,7 @@
 .about{
     background-color: var(--fondo);
+    display: none;
+    padding-bottom: 2rem;
 }
 
 .about__title{

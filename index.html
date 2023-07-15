@@ -28,29 +28,28 @@
     <section class="menu" id="menu">
         <header class="menu__header">
             <img class="icono" src="./assetes/insignia.png">
-            <h1 class="header__name">Armando Ruiz Gutierrez</h1>
+            <h1 class="header__name"><a href="#profile" onclick="MenuPosition(event, '#profile')">Armando Ruíz Gutiérrez</a></h1>
             <label for="toggle" id="dark-mode"><i class="fa-solid fa-moon"></i></label>
             <input type="checkbox" id="toggle">
         </header>
         <nav>
             <ul class="menu__navegation">
-                <li class="menu__link"><a href="#about" onclick="MenuPosition(event, '#about')">Sobre mi</a></li>
-                <li class="menu__link"><a href="#skills" onclick="MenuPosition(event, '#skills')">Skills</a></li>
-                <li class="menu__link"><a href="#hobbies" onclick="MenuPosition(event, '#hobbies')">Hobbies</a></li>
-                <li class="menu__link"><a href="#academic" onclick="MenuPosition(event, '#academic')">Formacion</a></li>
-                <li class="menu__link"><a href="#proyect" onclick="MenuPosition(event, '#proyect')">Proyectos</a></li>
-                <li class="menu__link"><a href="#contact" onclick="MenuPosition(event, '#contact')">Contactame</a></li>
-                <li class="menu__link contact"><a href="#contact">Contactame</a></li>
+                <li class="menu__link"><a href="#about" onclick="MenuPosition(event, '#about')" id="link__about">Sobre mi</a></li>
+                <li class="menu__link"><a href="#skills" onclick="MenuPosition(event, '#skills')" id="link__skills">Skills</a></li>
+                <li class="menu__link"><a href="#hobbies" onclick="MenuPosition(event, '#hobbies')" id="link__hobbies">Hobbies</a></li>
+                <li class="menu__link"><a href="#academic" onclick="MenuPosition(event, '#academic')" id="link__academic">Formacion</a></li>
+                <li class="menu__link"><a href="#proyect" onclick="MenuPosition(event, '#proyect')" id="link__proyect">Proyectos</a></li>
+                <li class="menu__link"><a href="#contact" onclick="MenuPosition(event, '#contact')" id="link__contact">Contactame</a></li>
             </ul>
         </nav>
     </section>
-    <main>
-        <section class="profile">
+    <main id="mainHTML">
+        <section class="profile" id="profile">
             <div class="conteincer-perfil">
                 <img class="profile__picture" src="./assetes/insignia.png" alt="Imagen de Perfil">
                 <div class="network__conteiner">
-                    <h1 class="network__title">Hola, mi nombre es Armando Ruíz Gutierrez, soy desarrollador FontEnd</h1>
-                    <h2 class="network__description">Actualmente estoy participando en el proyecto Oracle ONE en Alura Latam</h2>
+                    <h1 class="network__title">Armando Ruíz Gutierrez</h1>
+                    <h2 class="network__description">Hola, soy un FronEnd Developer; actualmente estoy participando en el proyecto Oracle ONE en Alura Latam</h2>
                     <nav>
                         <ul  class="network__ul">
                             <li class="network__item"><a class="network__link" href="https://github.com/RuizArmando" target="_blank">Github</a></li>
@@ -68,7 +67,7 @@
             </div>
         </section>
         <section class="skills" id="skills">
-            <h3 class="skills__title">Skills</h3>
+            <h1 class="skills__title">Skills</h1>
             <nav class="skills__nav" id="skills__nav">
                 <ul class="skills__box">
                     <li><img class="skills__img" src="./assetes/HTML5.png"></li>
@@ -83,32 +82,32 @@
                     <li class="skills__name">Javascript</li>
                 </ul>
                 <ul class="skills__box">
-                    <li><img class="skills__img" src="./assetes/PHP.png"></li>
-                    <li class="skills__name">PHP</li>
+                    <li><img class="skills__img" src="./assetes/Csharp.png"></li>
+                    <li class="skills__name">C#</li>
                 </ul>
                 <ul class="skills__box">
                     <li><img class="skills__img node" src="./assetes/NODE JS.png"></li>
                     <li class="skills__name">Node JS</li>
                 </ul>
                 <ul class="skills__box">
-                    <li><img class="skills__img" src="./assetes/REACT.png"></li>
-                    <li class="skills__name">React</li>
+                    <li><img class="skills__img" src="./assetes/mysql.png"></li>
+                    <li class="skills__name">MySQL</li>
                 </ul>
             </nav>
         </section>
         <section class="hobbies" id="hobbies">
-            <h3 class="hobbies__title">Hobbies</h3>
+            <h1 class="hobbies__title">Hobbies</h1>
             <nav class="hobbies__nav" id="hobbies__nav">
                 <ul class="hobbies__box">
-                    <li><img class="hobbies__img" src="./assetes/musica.png"></li>
+                    <li><img class="hobbies__img" src="./assetes/musica.gif"></li>
                     <li class="hobbies__name">Musica</li>
                 </ul>
                 <ul class="hobbies__box">
-                    <li><img class="hobbies__img" src="./assetes/videojuego.png"></li>
+                    <li><img class="hobbies__img" src="./assetes/gaming.gif"></li>
                     <li class="hobbies__name">Video Juegos</li>
                 </ul>
                 <ul class="hobbies__box">
-                    <li><img class="hobbies__img" src="./assetes/literatura.png"></li>
+                    <li><img class="hobbies__img" src="./assetes/literatura.gif"></li>
                     <li class="hobbies__name">Literatura</li>
                 </ul>
             </nav>
@@ -138,17 +137,19 @@
         </section>
         <section class="proyect" id="proyect">
             <h1 class="proyect_title">Proyectos</h1>
-            <img class="proyect__img" src="./assetes/proyectos/Encriptador.png">
-            <p class="proyect__descripcion">Encriptador de texto</p>
-            <div class="proyect__box">
-                <button class="proyect__demo" onclick="projectEncriptador()">Demo</button>
-                <button class="proyect__code" onclick="codeEncriptador()">Code</button>
-            </div>
-            <img class="proyect__img" src="#">
-            <p class="proyect__descripcion">Potafolio actual</p>
-            <div class="proyect__box">
-                <button class="proyect__demo" onclick="projectPortafolio()">Demo</button>
-                <button class="proyect__code" onclick="codePortafolio()">Code</button>
+            <div id="proyect__div">
+                <img class="proyect__img" src="./assetes/proyectos/Encriptador.png">
+                <p class="proyect__descripcion">Encriptador de texto</p>
+                <div class="proyect__box">
+                    <button class="proyect__demo" onclick="projectEncriptador()">Demo</button>
+                    <button class="proyect__code" onclick="codeEncriptador()">Code</button>
+                </div>
+                <img class="proyect__img" src="#">
+                <p class="proyect__descripcion">Potafolio actual</p>
+                <div class="proyect__box">
+                    <button class="proyect__demo" onclick="projectPortafolio()">Demo</button>
+                    <button class="proyect__code" onclick="codePortafolio()">Code</button>
+                </div>
             </div>
         </section>
         <section class="contact" id="contact">
@@ -188,12 +189,10 @@
     <script src="./js/main/project.js"></script>
     <script src="./js/menu/dark-mode-menu.js"></script>
     <script src="./js/validar.js"></script>
-    <script src="./js/main/skills-animation.js"></script>
+    <script src="./js/main/animation.js"></script>
 </body>
 <footer>
     <p>Desarrollado por Armando Ruiz Gutierrez</p>
     <p>2023</p>
 </footer>
 </html>
-
-<!--https://formsubmit.co/357e6d082d98099bf80857274ab077a0-->

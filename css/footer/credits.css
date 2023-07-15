@@ -1,4 +1,9 @@
+footer{
+    margin-top: 16px;
+}
+
 footer p{
     font-size: 18px;
     text-align: center;
+    cursor: default;
 }

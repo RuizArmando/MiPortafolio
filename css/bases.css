@@ -5,15 +5,14 @@
     --fondo-box: #FFFFFF;
     --letras-box: #000000;
     --borde-box: #0E110C;
-    --borde-box-segundo: #11EDF1;
+    --borde-box-segundo: #19F5E4;
 
     --input-ok: #1ED12D;
     --input-falle: #B72E2E;
-    --boton-rojo: #B72E2E;
-    
-    --fuente-ceniza: #464646;
-    --fuente-enlace: #F6B025;
-    --fuente-ceniza-oscuro: #4F4C4C;
+
+    --fuente-enlace: #7023E1;
+    /*--fuente-enlace: #F6B025;*/
+    --base: #041562;
 
     --Fuente: 'Titillium Web', sans-serif;
 }
@@ -22,9 +21,16 @@
     --fondo: #000000;
     --color-letras: #FFFFFF;
     --titulos: #FFFFFF;
-    --borde-box: #FFFFFF
+    --borde-box: #7023E1;
 }
 
 body{
     width: 100%;
+    font-family: var(--Fuente);
+    cursor: default;
+}
+
+h1{
+    padding-top: 10px;
+    padding-bottom: 10px;
 }

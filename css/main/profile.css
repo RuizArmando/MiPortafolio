@@ -1,5 +1,4 @@
 .profile{
-    margin-top: 3rem;
     background-color: var(--fondo);
 }
 
@@ -47,6 +46,8 @@
 
 .network__link:hover{
     text-decoration: underline;
+    font-size: 18px;
+    color: var(--fuente-enlace);
 }
 
 @media screen and (max-width: 720px){
@@ -56,30 +57,12 @@
     .network__ul{
         margin-top: 4px;
     }
-    /*.profile{
-        margin-top: 0rem;
-    }
-    .conteincer-perfil{
-        display: flex;
-        flex-direction: column;
-    }
-    .profile__picture{
-        width: 75px;
-        height: 75px;
-        margin-left: 0;
-    }
-    .network__title{
-        margin-right: 0;
-        font-size: 1.75rem;
-    }
-    .network__description{
-        margin-top: .55rem;
-    }*/
 }
 
 @media screen and (max-width: 480px){
     .profile{
-        padding: 16px;
+        margin: 0;
+        padding: 0;
     }
     .conteincer-perfil{
         display: flex;

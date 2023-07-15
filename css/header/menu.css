@@ -1,6 +1,5 @@
 .menu{
     width: 100%;
-    position: fixed;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -23,6 +22,11 @@
     margin-left: 1rem;
     color: var(--color-letras);
     font-size: 16px;
+}
+
+.header__name a{
+    text-decoration: none;
+    color: var(--color-letras);
 }
 
 #dark-mode{
@@ -79,24 +83,20 @@
     }
     #dark-mode{
         margin-top: 0;
-        margin-left: 16rem;
+        margin-left: 26.8rem;
         color: rebeccapurple;
-        font-size: 1.95rem;
+        font-size: 1.75rem;
         background-color: var(--fondo);
     }
     .menu__navegation{
         flex-direction: row;
-        margin-top: 0;
+        margin-top: 1rem;
         margin-right: 44rem;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
     }
     .menu__link{
-        color: var(--titulos);
         text-decoration: none;
-        font-size: .65rem;
-        display: none;
-    }
-    .menu__link.contact{
-        display: block;
     }    
     .menu__link.contact a{
         margin-right: 0;
@@ -106,6 +106,5 @@
 @media screen and (max-width: 1024px){
     .menu{
         width: 100%;
-        position: fixed;
     }
 }

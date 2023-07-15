@@ -1,5 +1,7 @@
 .academic{
     background-color: var(--fondo);
+    display: none;
+    padding-bottom: 2rem;
 }
 
 .academic_title{
@@ -15,13 +17,13 @@
     justify-content: space-around;
     /*Ocultar nav*/
     opacity: 0;
-	transform: scale(0.9);
+    transform: scale(.9);
 	transition: .7s ease-in-out all;
 }
 
 .academic__nav.visible{
     opacity: 1;
-	transform: scale(1);
+    transform: scale(1);
 }
 
 .academic__box{
@@ -33,7 +35,7 @@
     list-style: none;
     padding: 0;
     width: 14rem;
-    height:7.8rem;
+    height: 8rem;
     box-shadow: 3px 3px 3px var(--borde-box);
 }
 
@@ -43,7 +45,7 @@
 
 .academic__box:hover{
     box-shadow: 3px 3px 3px var(--borde-box-segundo);
-    font-size: 18px;
+    cursor: default;
 }
 
 .academic__img{
@@ -55,6 +57,15 @@
 
 .academic__name{
     justify-content: space-evenly;
+}
+
+.academic__box:hover .academic__img {
+    width: 7rem;
+    height: 6rem;
+}
+  
+ .academic__box:hover .academic__name {
+    font-size: 16px;
 }
 
 @media screen and (max-width:480px){
