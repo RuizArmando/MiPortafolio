@@ -9,7 +9,7 @@ function MenuPosition(event, targetId){
         behavior: 'smooth'
     });
     targetId = targetId.substring(1);
-    Menu(targetId);
+    linkBold(targetId);
 }
 
 function Menu(sectionID){
@@ -26,6 +26,7 @@ function Menu(sectionID){
 }
 
 function linkBold(linkID){
+    linkID = linkID.substring(1);
     let menuLink = document.querySelectorAll('#menu a');
 
     menuLink.forEach((a) =>{

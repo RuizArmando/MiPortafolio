@@ -1,6 +1,5 @@
 .proyect{
 	background-color: var(--fondo);
-	display: none;
 	padding-bottom: 2rem;
 }
 
@@ -13,8 +12,9 @@
 }
 
 .proyect__img{
-	width: 66rem;
-	margin-left: 8%;
+	width: 800px;
+	margin-left: 10%;
+	margin-right: 10%;
 }
 
 .proyect__descripcion{
@@ -45,21 +45,30 @@
 	border-width: .12rem;
 }
 
-#proyect__div{
+.proyect__div{
 	opacity: 0;
-    transform: scale(.9);
 	transition: .7s ease-in-out all;
 }
 
-#proyect__div.visible{
+.proyect__div.visible{
 	opacity: 1;
-    transform: scale(1) translateX(0);
 }
 
 @media screen and (max-width: 1189px){
+	.proyect{
+		width: 1189px;
+	}
 	.proyect__img{
 		margin-left: 10%;
 		margin-right: 10%;
 		width: 80%;
 	}
+}
+
+@media (min-width: 1190px){
+    .proyect{
+		padding-top: 10%;
+        padding-bottom: 30%;
+        margin-left: 16%;
+    }
 }

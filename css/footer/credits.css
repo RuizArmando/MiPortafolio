@@ -7,3 +7,9 @@ footer p{
     text-align: center;
     cursor: default;
 }
+
+@media (min-width: 1190px){
+    footer{
+        margin-left: 16%;
+    }
+}

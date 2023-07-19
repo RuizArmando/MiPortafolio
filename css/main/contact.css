@@ -1,6 +1,5 @@
 .contact{
     background-color: var(--fondo);
-    display: none;
     padding-bottom: 1.2rem;
 }
 
@@ -16,6 +15,13 @@
     margin-top: .75rem;
     font-size: 20px;
     color: var(--color-letras);
+    text-align: center;
+}
+
+.contact__form{
+    display: flex;
+    justify-content: center;
+    flex-direction: row-reverse;
 }
 
 .contact__conteiner{
@@ -50,8 +56,13 @@
     height: 3.85rem;
 }
 
+.btn{
+    display: flex;
+    justify-content: center;
+}
+
 .envio{
-    margin-top: .75rem;
+    margin-top: 22rem;
     width: 4rem;
 	height: 2.3rem;
     border-radius: 12px;
@@ -125,7 +136,13 @@
     border-color: var(--input-falle);
 }
 
-@media screen and (max-width: 720px){
+@media (max-width: 1189px) {
+    .contact{
+        width: 1189px;
+    }
+}
+
+@media (max-width: 720px){
     .contact__input input{
         width: 22rem;
     }
@@ -148,5 +165,13 @@
 
     .contact__input-falle textarea{
         width: 22rem;
+    }
+}
+
+@media (min-width: 1190px){
+    .contact{
+        padding-top: 10%;
+        padding-bottom: 30%;
+        margin-left: 16%;
     }
 }

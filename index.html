@@ -27,29 +27,29 @@
 <body>
     <section class="menu" id="menu">
         <header class="menu__header">
-            <img class="icono" src="./assetes/insignia.png">
-            <h1 class="header__name"><a href="#profile" onclick="MenuPosition(event, '#profile')">Armando Ruíz Gutiérrez</a></h1>
+            <i class="fa-solid fa-computer" id="computerIcon"></i>
+            <h1 class="header__name"><a href="#profile" onclick="linkBold('#profile')" id="link__profile">Armando Ruíz Gutiérrez</a></h1>
             <label for="toggle" id="dark-mode"><i class="fa-solid fa-moon"></i></label>
             <input type="checkbox" id="toggle">
         </header>
         <nav>
             <ul class="menu__navegation">
-                <li class="menu__link"><a href="#about" onclick="MenuPosition(event, '#about')" id="link__about">Sobre mi</a></li>
-                <li class="menu__link"><a href="#skills" onclick="MenuPosition(event, '#skills')" id="link__skills">Skills</a></li>
-                <li class="menu__link"><a href="#hobbies" onclick="MenuPosition(event, '#hobbies')" id="link__hobbies">Hobbies</a></li>
-                <li class="menu__link"><a href="#academic" onclick="MenuPosition(event, '#academic')" id="link__academic">Formacion</a></li>
-                <li class="menu__link"><a href="#proyect" onclick="MenuPosition(event, '#proyect')" id="link__proyect">Proyectos</a></li>
-                <li class="menu__link"><a href="#contact" onclick="MenuPosition(event, '#contact')" id="link__contact">Contactame</a></li>
+                <li class="menu__link"><a href="#about" onclick="linkBold('#about')" id="link__about">Sobre mi</a></li>
+                <li class="menu__link"><a href="#skills" onclick="linkBold('#skills')" id="link__skills">Skills</a></li>
+                <li class="menu__link"><a href="#hobbies" onclick="linkBold('#hobbies')" id="link__hobbies">Hobbies</a></li>
+                <li class="menu__link"><a href="#academic" onclick="linkBold('#academic')" id="link__academic">Formacion</a></li>
+                <li class="menu__link"><a href="#proyect" onclick="linkBold('#proyect')" id="link__proyect">Proyectos</a></li>
+                <li class="menu__link"><a href="#contact" onclick="linkBold('#contact')" id="link__contact">Contactame</a></li>
             </ul>
         </nav>
     </section>
     <main id="mainHTML">
         <section class="profile" id="profile">
             <div class="conteincer-perfil">
-                <img class="profile__picture" src="./assetes/insignia.png" alt="Imagen de Perfil">
+                <img class="profile__picture" src="./assetes/perfil.png" alt="Imagen de Perfil">
                 <div class="network__conteiner">
-                    <h1 class="network__title">Armando Ruíz Gutierrez</h1>
-                    <h2 class="network__description">Hola, soy un FronEnd Developer; actualmente estoy participando en el proyecto Oracle ONE en Alura Latam</h2>
+                    <h1 class="network__title">Hola soy Armando Ruíz Gutierrez</h1>
+                    <h2 class="network__description">Soy FronEnd Developer; actualmente estoy participando en el proyecto Oracle ONE en Alura Latam</h2>
                     <nav>
                         <ul  class="network__ul">
                             <li class="network__item"><a class="network__link" href="https://github.com/RuizArmando" target="_blank">Github</a></li>
@@ -137,7 +137,7 @@
         </section>
         <section class="proyect" id="proyect">
             <h1 class="proyect_title">Proyectos</h1>
-            <div id="proyect__div">
+            <div class="proyect__div" id="proyect__div">
                 <img class="proyect__img" src="./assetes/proyectos/Encriptador.png">
                 <p class="proyect__descripcion">Encriptador de texto</p>
                 <div class="proyect__box">
@@ -179,9 +179,11 @@
                         <p class="contact__value">Favor de igresar un mensaje en este campo, maximo 300 caracteres</p>
                     </div>
                 </div>
-                <input type="submit" class="envio" value="Enviar">
-                <input type="hidden" name="_next" value="https://ruizarmando.github.io/MiPortafolio/">
-                <input type="hidden" name="_captcha" value="false">
+                <div class="btn">
+                    <input type="submit" class="envio" value="Enviar">
+                    <input type="hidden" name="_next" value="https://ruizarmando.github.io/MiPortafolio/">
+                    <input type="hidden" name="_captcha" value="false">
+                </div>
             </form>
         </section>
     </main>

@@ -1,6 +1,5 @@
 .about{
     background-color: var(--fondo);
-    display: none;
     padding-bottom: 2rem;
 }
 
@@ -17,9 +16,10 @@
     font-size: 1.7rem;
 }
 
-@media screen and (max-width:480px){
+@media (max-width:1189px){
     .about{
         padding: 16px;
+        width: 1189px;
     }
     .about__title{
         padding-top: 8px;
@@ -27,5 +27,13 @@
     #about__description{
         margin-top: .95rem;
         font-size: 1.15rem;
+    }
+}
+
+@media (min-width: 1190px){
+    .about{
+        padding-top: 20%;
+        padding-bottom: 30%;
+        margin-left: 16%;
     }
 }

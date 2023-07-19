@@ -1,6 +1,5 @@
 .academic{
     background-color: var(--fondo);
-    display: none;
     padding-bottom: 2rem;
 }
 
@@ -17,13 +16,11 @@
     justify-content: space-around;
     /*Ocultar nav*/
     opacity: 0;
-    transform: scale(.9);
 	transition: .7s ease-in-out all;
 }
 
 .academic__nav.visible{
     opacity: 1;
-    transform: scale(1);
 }
 
 .academic__box{
@@ -68,10 +65,11 @@
     font-size: 16px;
 }
 
-@media screen and (max-width:480px){
+@media (max-width:1189px){
     .academic{
         padding: 32px;
         margin-top: 0rem;
+        width: 1189px;
     }
     .academic__title{
         padding-top: 8px;
@@ -85,5 +83,13 @@
     .academic__box{
         margin-top: 4px;
         margin-bottom: 4px;
+    }
+}
+
+@media (min-width: 1190px){
+    .academic{
+        padding-top: 30%;
+        padding-bottom: 30%;
+        margin-left: 16%;
     }
 }
